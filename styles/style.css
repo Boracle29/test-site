@@ -382,13 +382,6 @@ body {
     width: 100%;
     background-color: transparent;
     color: var(--txt-dark);
-}
-
-.container-footer-copyright p {
-    font-size: 1rem;
-}
-
-.container-footer-copyright a {
     font-size: 0.875rem;
 }
 
