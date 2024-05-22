@@ -392,6 +392,10 @@ body {
 }
 
 @media screen and (max-device-width: 480px) {
+    html {
+        font-size: 4vh !important;
+    }
+
     .container-content {
         background-color: white;
         float: none;
