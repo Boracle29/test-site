@@ -1,0 +1,25 @@
+<div class="container triple-panel">
+                <div class="container-content">
+                    <div class="content-header" style="padding: 0 96px;">Science</div>
+                    <div class=" content-panel" style="background-color: transparent;">
+                        <p class="nav-bg-par">
+                            Oleoyl intends to research methods to reduce withdrawal symptoms of addictive
+                            substances.
+                        </p>
+                    </div>
+                </div>
+                <div class="container-content">
+                    <div class="content-header"></div>
+                    <div class="content-panel" style="background-color: transparent;"></div>
+                </div>
+                <div class="container-content">
+                    <div class="content-header">Research</div>
+                    <div class=" content-panel" style="background-color: transparent;">
+                        <p class="nav-bg-par">
+                            Evidence suggests that our formulation of a chemical species naturally found in the
+                            brain
+                            can reduce withdrawal symptoms of addictive substances.
+                        </p>
+                    </div>
+                </div>
+            </div>
