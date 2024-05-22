@@ -385,8 +385,7 @@ body {
     color: var(--txt-dark);
 }
 
-.container-footer-copyright a,
-p {
+.container-footer-copyright p {
     font-size: 1rem;
 }
 
