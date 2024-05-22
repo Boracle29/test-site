@@ -161,14 +161,14 @@ body {
     margin: 2em 0;
     padding: 0.25rem;
     width: 100%;
-    background-color: transparent;
+    background-color: green;
 }
 
 .container {
     padding: 0.25rem;
     width: 100%;
     height: 100%;
-    background-color: transparent;
+    background-color: blue;
     overflow: auto
 }
 
@@ -176,14 +176,14 @@ body {
     padding: 0.625rem;
     width: 100%;
     height: 100%;
-    background-color: transparent;
+    background-color: orange;
     float: left;
 }
 
 .content-header {
     padding: 0.25rem;
     width: 100%;
-    background-color: transparent;
+    background-color: red;
     color: var(--txt-dark);
     text-align: left;
     font-size: 2rem;
@@ -395,7 +395,7 @@ body {
     .container-content {
         background-color: white;
         float: none;
-        width: 100%;
+        width: 100% !important;
     }
 }
 
