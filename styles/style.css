@@ -390,6 +390,12 @@ body {
     background-color: var(--secondary-bg);
 }
 
+@media screen and (max-device-width: 1024px) {
+    .container-content {
+        float: none;
+    }
+}
+
 /* UTILITY */
 
 .column-one-fifth {
