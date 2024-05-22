@@ -20,9 +20,9 @@ html {
 }
 
 body {
+    position: fixed;
     background-color: #eeeeeb;
     font-family: "Noto Sans";
-    min-height: 100%;
 }
 
 /* NAVBAR */
