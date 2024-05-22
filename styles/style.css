@@ -396,6 +396,10 @@ body {
         font-size: 2vh !important;
     }
 
+    .wrapper-page {
+        padding: 0 1rem;
+    }
+
     .container-content {
         background-color: white;
         float: none;
