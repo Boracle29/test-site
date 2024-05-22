@@ -393,11 +393,15 @@ body {
 
 @media screen and (max-device-width: 480px) {
     html {
-        font-size: 2vh !important;
+        font-size: 3vh !important;
     }
 
     .wrapper-page {
         padding: 0 1rem;
+    }
+
+    .container-wrapper {
+        min-height: 100%;
     }
 
     .container-content {
