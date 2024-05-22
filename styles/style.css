@@ -27,6 +27,7 @@ body {
 /* NAVBAR */
 
 .wrapper-nav {
+    width: 100%;
     position: relative;
 }
 
@@ -393,6 +394,7 @@ body {
 @media screen and (max-device-width: 480px) {
     .container-content {
         float: none;
+        width: 100%;
     }
 }
 
