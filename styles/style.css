@@ -393,7 +393,7 @@ body {
 
 @media screen and (max-device-width: 480px) {
     html {
-        font-size: 4vh !important;
+        font-size: 2vh !important;
     }
 
     .container-content {
