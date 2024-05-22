@@ -293,7 +293,7 @@ body {
     height: 26%;
     background-color: transparent;
     color: var(--txt-dark);
-    font-size: 1rem;
+    font-size: 0.5rem;
 }
 
 .footer-content-header {
