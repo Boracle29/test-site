@@ -396,6 +396,14 @@ body {
         padding: 0 1rem;
     }
 
+    .container-wrapper {
+        border-top: 2px solid var(--txt-dark);
+    }
+
+    .container {
+        border: none !important;
+    }
+
     .container-content {
         background-color: transparent;
         float: none;
