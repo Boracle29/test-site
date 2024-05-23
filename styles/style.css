@@ -232,7 +232,7 @@ body {
     vertical-align: middle;
     width: 100%;
     background-color: transparent;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .screen-img-par {
@@ -244,6 +244,7 @@ body {
     font-weight: 300;
     text-align: left;
     background-color: transparent;
+    overflow: hidden;
 }
 
 .screen-img-btn {
