@@ -387,6 +387,7 @@ body {
     .wrapper-body {
         position: fixed;
         overflow: auto;
+        height: 100%;
     }
 
     .wrapper-page {
