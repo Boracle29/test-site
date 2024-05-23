@@ -27,7 +27,7 @@ body {
 
 /* NAVBAR */
 
-.wrapper-nav {
+.nav-wrapper {
     width: 100%;
     position: relative;
 }
@@ -146,6 +146,7 @@ body {
 /* PAGE CONTENT */
 
 .wrapper-page {
+    width: 100%;
     padding: 0 4rem;
 }
 
@@ -154,7 +155,7 @@ body {
     padding: 0.25rem;
     width: 100%;
     height: 100%;
-    background-color: transparent;
+    background-color: blue;
     overflow: auto;
 }
 
@@ -162,7 +163,7 @@ body {
     padding: 0.25rem;
     width: 100%;
     height: 100%;
-    background-color: transparent;
+    background-color: orange;
     overflow: auto;
 }
 
@@ -170,14 +171,15 @@ body {
     padding: 0.625rem;
     width: 100%;
     height: 100%;
-    background-color: transparent;
+    background-color: green;
     float: left;
+    overflow: auto;
 }
 
 .content-header {
     padding: 0.25rem;
     width: 100%;
-    background-color: transparent;
+    background-color: red;
     color: var(--txt-dark);
     text-align: left;
     font-size: 2rem;
@@ -277,6 +279,7 @@ body {
 .container-footer-wrapper {
     padding: 0.25rem;
     width: 100%;
+    height: 100%;
     background-color: var(--secondary-bg);
 }
 
@@ -358,7 +361,7 @@ body {
     font-size: 0.875rem;
     font-weight: 400;
     border: none;
-    border-radius: 4px;
+    border-radius: 0.25em;
     transition: 0.25s;
 }
 
@@ -381,7 +384,7 @@ body {
     background-color: var(--secondary-bg);
 }
 
-@media screen and (max-device-width: 480px) {
+@media screen and (max-device-width: 720px) {
     html {
         font-size: 3vh !important;
         height: 100%;
@@ -391,6 +394,10 @@ body {
         height: 100%;
     }
 
+    .social-media-menu {
+        padding: 0.875rem;
+    }
+
     .wrapper-body {
         position: fixed;
         overflow: auto;
@@ -398,19 +405,10 @@ body {
     }
 
     .wrapper-page {
-        padding: 0 1rem;
-    }
-
-    .container-wrapper {
-        border-top: 1px solid var(--txt-dark);
-    }
-
-    .container {
-        border: none !important;
+        padding: 0;
     }
 
     .container-content {
-        background-color: transparent;
         float: none;
         width: 100% !important;
     }
