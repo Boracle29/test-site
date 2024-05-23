@@ -384,6 +384,14 @@ body {
         font-size: 3vh !important;
     }
 
+    html,
+    body {
+        position: fixed;
+        overflow: auto;
+        height: 100%;
+        width: 100%;
+    }
+
     .wrapper-page {
         padding: 0 1rem;
     }
