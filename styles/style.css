@@ -153,19 +153,24 @@ body {
     margin: 2em 0;
     padding: 0.25rem;
     width: 100%;
-    background-color: transparent;
+    height: 100%;
+    background-color: blue;
+    overflow: auto;
 }
 
 .container {
     padding: 0.25rem;
     width: 100%;
-    background-color: transparent;
+    height: 100%;
+    background-color: orange;
+    overflow: auto;
 }
 
 .container-content {
     padding: 0.625rem;
     width: 100%;
-    background-color: transparent;
+    height: 100%;
+    background-color: green;
     float: left;
 }
 
