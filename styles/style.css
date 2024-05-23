@@ -225,7 +225,6 @@ body {
     right: 0;
     left: 0;
     bottom: 0;
-    height: 25%;
     background-color: var(--secondary-bg);
     border-radius: inherit;
     overflow: hidden;
@@ -233,7 +232,7 @@ body {
 
 .screen-img-content-panel {
     width: 100%;
-    background-color: transparent;
+    background-color: red;
     overflow: hidden;
 }
 
@@ -245,7 +244,7 @@ body {
     font-size: 1.125rem;
     font-weight: 300;
     text-align: left;
-    background-color: transparent;
+    background-color: turquoise;
     overflow: hidden;
 }
 
@@ -401,6 +400,15 @@ body {
         background-color: transparent;
         float: none;
         width: 100% !important;
+    }
+
+    .screen-img-par {
+        display: none;
+    }
+
+    .screen-img-btn {
+        float: right;
+        width: 25%;
     }
 }
 
