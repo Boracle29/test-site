@@ -35,7 +35,6 @@ body {
 }
 
 .navbar {
-    display: none;
     position: absolute;
     top: 0;
     padding: 3rem;
@@ -395,6 +394,11 @@ body {
 @media screen and (max-device-width: 480px) {
     html {
         font-size: 3vh !important;
+    }
+
+    body {
+        position: absolute;
+        overflow: auto;
     }
 
     .wrapper-page {
