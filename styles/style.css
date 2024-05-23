@@ -397,6 +397,11 @@ body {
         font-size: 3vh !important;
     }
 
+    body {
+        position: fixed;
+        overflow-y: scroll;
+    }
+
     .wrapper-page {
         padding: 0 1rem;
     }
