@@ -1,19 +1,11 @@
-var count = 0;
-const body = document.querySelector("body")
-if (body === null) {
-    console.log("no body");
-}
-
-var win_height = window.innerHeight
+const win_height = window.innerHeight;
+console.log(win_height);
 
 function set_height() {
-    body.style.height = win_height + "px";
-    console.log(count);
-    count = count + 1;
+    document.body.style.height = win_height + "px";
+    console.log(win_height);
+    console.log(document.body.style.height);
 }
 
-window.addEventListener("resize", set_height());
+window.addEventListener("resize", set_height);
 window.onresize = set_height();
-set_height(body, win_height);
-
-console.log("done");
