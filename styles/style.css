@@ -25,6 +25,11 @@ body {
     font-family: "Noto Sans";
 }
 
+.wrapper-page {
+    height: 100%;
+    padding: 0;
+}
+
 /* NAVBAR */
 
 .wrapper-nav {
@@ -382,14 +387,6 @@ body {
 @media screen and (max-device-width: 480px) {
     html {
         font-size: 3vh !important;
-    }
-
-    html,
-    body {
-        position: fixed;
-        overflow: auto;
-        height: 100%;
-        width: 100%;
     }
 
     .wrapper-page {
