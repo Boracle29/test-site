@@ -382,11 +382,12 @@ body {
 @media screen and (max-device-width: 480px) {
     html {
         font-size: 3vh !important;
+        height: 100%;
     }
 
     body {
         position: fixed;
-        height: 100%;
+        top: 0;
         overflow: scroll;
     }
 
