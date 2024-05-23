@@ -407,8 +407,8 @@ body {
     }
 
     .screen-img-btn {
-        float: right;
-        width: 25%;
+        margin: auto;
+        width: 80%;
     }
 }
 
