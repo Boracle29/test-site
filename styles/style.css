@@ -410,6 +410,10 @@ body {
         width: 100% !important;
     }
 
+    .content-header {
+        text-align: center;
+    }
+
     .screen-img-par {
         display: none;
     }
