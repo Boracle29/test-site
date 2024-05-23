@@ -384,6 +384,11 @@ body {
 @media screen and (max-device-width: 480px) {
     html {
         font-size: 3vh !important;
+        height: 100%;
+    }
+
+    body {
+        height: 100%;
     }
 
     .wrapper-body {
