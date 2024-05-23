@@ -382,13 +382,13 @@ body {
 @media screen and (max-device-width: 480px) {
     html {
         font-size: 3vh !important;
-        height: 100%;
     }
 
     body {
         position: fixed;
         top: 0;
-        overflow: scroll;
+        overflow: hidden scroll;
+        height: 100%;
     }
 
     .wrapper-page {
