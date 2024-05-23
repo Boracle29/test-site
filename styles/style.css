@@ -165,21 +165,21 @@ body {
     margin: 2em 0;
     padding: 0.25rem;
     width: 100%;
-    background-color: green;
+    background-color: transparent;
     overflow: auto;
 }
 
 .container {
     padding: 0.25rem;
     width: 100%;
-    background-color: blue;
+    background-color: transparent;
     overflow: auto;
 }
 
 .container-content {
     padding: 0.625rem;
     width: 100%;
-    background-color: orange;
+    background-color: transparent;
     float: left;
     overflow: auto;
 }
@@ -187,7 +187,7 @@ body {
 .content-header {
     padding: 0.25rem;
     width: 100%;
-    background-color: red;
+    background-color: transparent;
     color: var(--txt-dark);
     text-align: left;
     font-size: 2rem;
@@ -294,7 +294,7 @@ body {
 .footer-content-header {
     padding: 0.25rem;
     width: 100%;
-    background-color: violet;
+    background-color: transparent;
     color: var(--txt-accent);
     font-size: 1.25rem;
     font-weight: 500;
@@ -303,7 +303,7 @@ body {
 .footer-content-panel {
     padding: 0.5rem;
     width: 100%;
-    background-color: maroon;
+    background-color: transparent;
     color: var(--txt-dark);
     font-size: 1rem;
     font-weight: 400;
@@ -406,7 +406,7 @@ body {
     }
 
     .container-content {
-        background-color: white;
+        background-color: transparent;
         float: none;
         width: 100% !important;
     }
