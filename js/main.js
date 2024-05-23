@@ -1,9 +1,5 @@
-const body = window.document.body
-const win_height = window.innerHeight
+const body = document.body
 
-function resize_element(element, height) {
-    element.style.height = (height + "px")
-    console.log("resized")
-}
+body.style.height = (window.innerHeight)
 
-window.addEventListener("resize", resize_element(body, win_height))
+console.log("done")
