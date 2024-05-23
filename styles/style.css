@@ -154,14 +154,12 @@ body {
     padding: 0.25rem;
     width: 100%;
     background-color: transparent;
-    overflow: auto;
 }
 
 .container {
     padding: 0.25rem;
     width: 100%;
     background-color: transparent;
-    overflow: auto;
 }
 
 .container-content {
@@ -169,7 +167,6 @@ body {
     width: 100%;
     background-color: transparent;
     float: left;
-    overflow: auto;
 }
 
 .content-header {
