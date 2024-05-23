@@ -22,7 +22,6 @@ html {
 
 body {
     width: 100%;
-    height: 100%;
     background-color: #eeeeeb;
     font-family: "Noto Sans";
 }
@@ -151,15 +150,6 @@ body {
     padding: 0 4rem;
 }
 
-.container-img-wrapper {
-    position: absolute;
-    top: 304px;
-    padding: 2rem;
-    width: 100%;
-    height: 200px;
-    background-color: transparent;
-}
-
 .container-wrapper {
     margin: 2em 0;
     padding: 0.25rem;
@@ -242,7 +232,6 @@ body {
 .screen-img-content-panel {
     vertical-align: middle;
     width: 100%;
-    height: 100%;
     background-color: transparent;
     overflow: hidden;
 }
@@ -397,7 +386,8 @@ body {
     }
 
     body {
-        position: absolute;
+        position: fixed;
+        height: 100%;
         overflow: auto;
     }
 
