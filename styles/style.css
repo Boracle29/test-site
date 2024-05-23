@@ -17,7 +17,6 @@
 
 html {
     font-size: 1vw;
-    height: 100%;
 }
 
 body {
@@ -388,15 +387,11 @@ body {
     body {
         position: fixed;
         height: 100%;
-        overflow: auto;
+        overflow: scroll;
     }
 
     .wrapper-page {
         padding: 0 1rem;
-    }
-
-    .container-wrapper {
-        min-height: 100%;
     }
 
     .container-content {
