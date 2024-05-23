@@ -395,6 +395,7 @@ body {
 @media screen and (max-device-width: 480px) {
     html {
         font-size: 3vh !important;
+        overflow-y: scroll;
     }
 
     body {
