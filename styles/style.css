@@ -225,12 +225,13 @@ body {
     right: 0;
     left: 0;
     bottom: 0;
+    height: 25%;
     background-color: var(--secondary-bg);
     border-radius: inherit;
+    overflow: hidden;
 }
 
 .screen-img-content-panel {
-    vertical-align: middle;
     width: 100%;
     background-color: transparent;
     overflow: hidden;
