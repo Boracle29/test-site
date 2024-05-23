@@ -397,7 +397,7 @@ body {
     }
 
     .container-wrapper {
-        border-top: 2px solid var(--txt-dark);
+        border-top: 1px solid var(--txt-dark);
     }
 
     .container {
