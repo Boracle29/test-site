@@ -86,12 +86,12 @@ body {
     display: flex;
     padding: 0 3rem;
     list-style: none;
-    background-color: orange;
+    background-color: transparent;
 }
 
 .navitem {
     position: relative;
-    background-color: blue;
+    background-color: transparent;
 }
 
 .navimg {
@@ -434,6 +434,10 @@ body {
 
     body {
         height: 100%;
+    }
+
+    .navbar {
+        display: none;
     }
 
     .social-media-menu {
