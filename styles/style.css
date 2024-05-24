@@ -450,6 +450,10 @@ body {
         padding: 0;
     }
 
+    .container {
+        display: block;
+    }
+
     .container-content {
         width: 100% !important;
     }
