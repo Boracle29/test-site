@@ -429,7 +429,7 @@ body {
 
 @media screen and (max-device-width: 600px) {
     html {
-        font-size: 3vw;
+        font-size: 3.375vw;
         height: 100%;
     }
 
@@ -443,12 +443,6 @@ body {
 
     .social-media-menu {
         padding: 0.25rem;
-    }
-
-    .wrapper-body {
-        position: fixed;
-        overflow: auto;
-        height: 100%;
     }
 
     .wrapper-page {
