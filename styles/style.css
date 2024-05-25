@@ -11,7 +11,7 @@
     --secondary-bg: #dededb;
     --txt-dark: #4b4d6f;
     --txt-light: #eeeeeb;
-    --txt-accent: #fb4b4f;
+    --txt-accent: #fb4f4f;
     --txt-shadow: #c9c9c9;
 }
 
@@ -103,6 +103,7 @@ body {
 
 .navlogo {
     display: block;
+    color: var(--txt-dark);
     text-decoration: none;
     text-align: center;
     font-family: "Space Grotesk";
@@ -426,9 +427,9 @@ body {
     background-color: var(--secondary-bg);
 }
 
-@media screen and (max-device-width: 720px) {
+@media screen and (max-device-width: 600px) {
     html {
-        font-size: 3vh !important;
+        font-size: 3vw;
         height: 100%;
     }
 
