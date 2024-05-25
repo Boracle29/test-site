@@ -278,8 +278,8 @@ body {
 }
 
 .screen-img-par {
-    width: 90%;
     padding: 0.25rem;
+    width: 90%;
     color: var(--txt-dark);
     font-size: 1.125rem;
     font-weight: 300;
@@ -314,7 +314,7 @@ body {
 
 .screen-img-btn:hover {
     color: var(--txt-accent);
-    padding-left: 3%;
+    padding-left: 2%;
 }
 
 /* FOOTER */
@@ -475,7 +475,7 @@ body {
     }
 
     .screen-img-par-mobile {
-        display: block;
+        display: inline;
     }
 
     .newsletter-par {
